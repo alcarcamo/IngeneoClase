@@ -4,6 +4,14 @@ public class ClaseFinal {
 	
 	public String atributo1 = "001";
 	public int a;
+	
+	
+	public ClaseFinal(String atributo1, int a) {
+		super();
+		this.atributo1 = atributo1;
+		this.a = a;
+	}
+	
 	public String getAtributo1() {
 		return atributo1;
 	}
